@@ -1,0 +1,11 @@
+[project]
+name = "nn-zoo"
+version = "0.1.0"
+description = "A personal neural network model zoo"
+readme = "readme.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+    "wandb>=0.21.0",
+]
